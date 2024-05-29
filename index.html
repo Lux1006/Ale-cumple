@@ -75,16 +75,5 @@
         <button onclick="submitFeedback()">Enviar</button>
     </div>
 
-    <script>
-        function submitFeedback() {
-            const feedback = document.getElementById('feedback').value;
-            if (feedback.trim()) {
-                alert('Gracias por tu mensaje: ' + feedback);
-                document.getElementById('feedback').value = '';
-            } else {
-                alert('Por favor, escribe un mensaje.');
-            }
-        }
-    </script>
 </body>
 </html>
